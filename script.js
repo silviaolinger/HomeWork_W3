@@ -63,7 +63,7 @@ if (hasSpecial === true){
   
 else 
 alert ('Undefined Password')
-  //random selection of password characters chosen by user.
+  //random selection of password characters chosen by user
 
  for (let i = 0; i < passLegth; i++){
   passwordvalue = passwordvalue + chosenchart.charAt (Math.floor(Math.random()* Math.floor(chosenchart.length - 1)));
