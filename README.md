@@ -9,5 +9,5 @@ This project can be found at GiHubRepository:
 
 ![](/Assets/leght.png)
 ![](/Assets/prompt.png)
-![](/Assets/prompt.png)
+![](/Assets/result.png)
 
