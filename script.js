@@ -40,7 +40,7 @@ hasUpperCase = confirm ("Will your password have UpperCase letters?")
 haslowercase= confirm ("Will your password have LowerCase letters?")
 hasSpecial= confirm ("Will your password have Symbols?")
 
-passwordvalue = '';
+let passwordvalue = '';
 let chosenchart = '';
 if (hasNumber === true){
   chosenchart = chosenchart + Number;
@@ -60,37 +60,34 @@ if (hasSpecial === true){
   chosenchart = chosenchart + Special;
  
 }
-console.log(chosenchart);
-  //charAt
-
+  
+else 
+alert ('Undefined Password')
   //random selection of password characters chosen by user.
- for (let i = 0; i < passwordleght; i++){
-  let pickchoices = chosenchart[Math.floor(Math.random)*chosenchart.lenght];
-   password.push(pickchoices);
 
+ for (let i = 0; i < passLegth; i++){
+  passwordvalue = passwordvalue + chosenchart.charAt (Math.floor(Math.random()* Math.floor(chosenchart.length - 1)));
+  
+  
+}
+//return the randomic value
+  return passwordvalue
 
- }
-
-
-
-
-
-
+}
 function writePassword() {
 
   const password = generatePassword();
   const passwordText = document.querySelector("#password");
   passwordText.value = password;
-  // Choosing the leght and type of password characters
   
   
+}  
   
-   }
-
-}
+   
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click",writePassword);
+
 
 
 
