@@ -4,7 +4,9 @@ This project consist in creating a random password using prompt alert, where the
 
 This project can be found at GiHubRepository:
 
-* [GitHub Repository] https://github.com/silviaolinger.
+* [GitHub Repository] (https://github.com/silviaolinger.)
+
+
 **Images for Reference**
 
 ![](/Assets/leght.png)
